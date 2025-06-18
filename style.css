@@ -160,3 +160,9 @@
         grid-column-start: 1;
         grid-column-end: 5;
     }
+    @media (max-width:470px) {
+        .nav{
+            display: flex;
+            flex-direction: column;
+        }
+    }
